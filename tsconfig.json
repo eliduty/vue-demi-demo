@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@eliduty/tsconfig",
+  ],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "outDir":"./dist",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@vue-demi/vue2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue-demi/lib": "workspace:^",
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.2.0"
+  }
+}
