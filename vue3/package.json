@@ -1,0 +1,28 @@
+{
+  "name": "@bpe/component-vue3",
+  "version": "1.0.0",
+  "description": "依能流程引擎系统(BPE)公共库Vue3构建系统",
+  "keywords": [],
+  "license": "ISC",
+  "author": {
+    "name": "zhangjiaolong",
+    "email": "zhangjiaolong@yineng.com.cn"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "vite": "^4.4.7",
+    "vite-plugin-dts": "^3.3.1",
+    "vite-plugin-libcss": "^1.1.1"
+  }
+}
